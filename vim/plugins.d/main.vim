@@ -25,7 +25,6 @@ runtime ruby.bundles
 runtime languages.bundles
 runtime git.bundles
 runtime appearance.bundles
-runtime textobjects.bundles
 runtime search.bundles
 runtime project.bundles
 runtime improvements.bundles
