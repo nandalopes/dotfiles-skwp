@@ -174,6 +174,7 @@ alias todo='open nvalt://find/todo'
 # Forward port 80 to 3000
 alias portforward='sudo ipfw add 1000 forward 127.0.0.1,3000 ip from any to any 80 in'
 
+# db:migrate
 alias rdm='rake db:migrate'
 alias rdmr='rake db:migrate:redo'
 
@@ -209,6 +210,7 @@ alias grb='git recent-branches'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
+# spring
 alias dbtp='spring rake db:test:prepare'
 alias dbm='spring rake db:migrate'
 alias dbmr='spring rake db:migrate:redo'
