@@ -8,11 +8,11 @@ if has("gui_running")
   " (the numbers don't show up) so I made it a VimEnter event
   autocmd VimEnter * set guitablabel=%N:\ %t\ %M
 
-  set lines=60
-  set columns=190
+  set lines=40
+  set columns=104
 
   if has("gui_gtk")
-    set guifont=Inconsolata\ XL\ 12,Inconsolata\ 15,Monaco\ 12,Hack\ 12
+    set guifont=FiraCode\ Nerd\ Font\ Mono\ 12,Hack\ 12
   else
     set guifont=Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
   end
