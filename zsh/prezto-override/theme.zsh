@@ -6,7 +6,7 @@ case "$TERM" in
   # xterm*)
   #   ;;
   linux)
-    zstyle ':prezto:module:prompt' theme 'giddie'
+    prompt giddie
     ;;
 esac
 
